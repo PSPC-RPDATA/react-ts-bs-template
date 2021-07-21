@@ -1,0 +1,20 @@
+test_with_args:
+  en: hello <%= name %>
+
+test_with_js:
+  en: hello <%= name.toUpperCase() %> 
+
+test_js_style_template:
+  en: hello ${name}
+
+test_dynamic_js_style_template:
+  en: |
+    hello ${name.length > 5 ? name.toUpperCase() : name}
+
+# actual text
+
+title:
+  en: Title
+  fr: Titre
+
+

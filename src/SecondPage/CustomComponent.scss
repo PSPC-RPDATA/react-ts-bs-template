@@ -1,0 +1,20 @@
+@import './colors.module.scss';
+
+.CustomComponent__root {
+    border: 1px solid black;
+    padding: 5px;
+
+
+    &.CustomComponent__root--is-active{
+        background-color: $activeColor;
+    }
+}
+.CustomComponent__header {
+    font-size: 1.8em;
+    font-weight: lighter;
+    padding: 10px;
+    padding-top: 20px;
+}
+.CustomComponent__body {
+    padding: 2px;
+}

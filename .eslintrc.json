@@ -1,0 +1,69 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:import/warnings", 
+    "plugin:import/errors",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-perf"
+  ],
+  "rules": {
+    "no-case-declarations":"off",
+    "@typescript-eslint/explicit-module-boundary-types": ["off"],
+    "react/jsx-key": ["warn"],
+    "no-debugger":"warn",
+    "no-undef":"warn",
+    "import/order": [
+      "warn", { 
+        "newlines-between": "always-and-inside-groups",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true 
+        },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          ["sibling", "index"]
+        ],
+        // We can group imports further by adding rules here, the order they're defined in breaks ties when group and position are equal
+        "pathGroups":[
+          {
+            "pattern": "src/**/*.(js|jsx|ts|tsx)",
+            "group": "internal",
+            "position": "before"
+          }
+        ]     
+      }
+    ]
+  
+  },
+  "settings": {
+    "import/resolver":{
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["./src/","node_modules/"]
+      }
+    }
+  }
+}
