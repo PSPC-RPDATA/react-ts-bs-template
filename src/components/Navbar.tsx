@@ -26,6 +26,14 @@ export default function Navbar() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Nav.Link
+            href={window.location.href.replace(
+              `/${window.lang}/`,
+              `/${window.other_lang}/`
+            )}
+          >
+            {window.lang === "en" ? "Français" : "English"}
+          </Nav.Link>
         </BSNavbar.Collapse>
       </div>
     </BSNavbar>
