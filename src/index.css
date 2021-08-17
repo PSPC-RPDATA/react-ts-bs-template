@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* this prevents the scrollbar on webkit from making window scroll  */
+  width:100%;
+  overflow-x: hidden;
 }
 
 code {
