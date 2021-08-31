@@ -27,5 +27,6 @@ function entryToText(str, args) {
 }
 
 window.tm = tm;
+window.tdt = tdt;
 
 export default tm;
