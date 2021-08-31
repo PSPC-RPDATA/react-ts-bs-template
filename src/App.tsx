@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import { Route, Routes, useRo } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import FirstPage from "./FirstPage/FirstPage";
 import SecondPage from "./SecondPage/SecondPage";
