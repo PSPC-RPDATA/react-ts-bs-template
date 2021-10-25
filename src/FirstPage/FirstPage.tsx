@@ -14,7 +14,7 @@ export default function FirstPage() {
   return (
     <Page>
       <FirstPageStateProvider>
-        <p> Hello </p>
+        <p> {tdt("Hello")} </p>
         <Modal />
         <Button />
       </FirstPageStateProvider>

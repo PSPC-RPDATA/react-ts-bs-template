@@ -1,5 +1,3 @@
-import _ from "lodash";
-
 // eslint-disable-next-line import/no-unresolved
 import text from "!json-loader!yaml-loader!text/base_text.yaml";
 
