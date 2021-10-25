@@ -27,11 +27,12 @@
     "react-perf"
   ],
   "rules": {
+    "react/react-in-jsx-scope": "off",
     "no-case-declarations":"off",
     "@typescript-eslint/explicit-module-boundary-types": ["off"],
     "react/jsx-key": ["warn"],
     "no-debugger":"warn",
-    "no-undef":"warn",
+    "no-undef":"off",//handled by typescript
     "import/order": [
       "warn", { 
         "newlines-between": "always-and-inside-groups",

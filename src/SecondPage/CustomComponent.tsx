@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 import "./CustomComponent.scss";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 interface CustomComponentProps {
   title?: ReactNode;

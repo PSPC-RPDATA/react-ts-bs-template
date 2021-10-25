@@ -1,5 +1,3 @@
-import React from "react";
-
 import Page from "components/Page";
 
 import colors from "./colors.module.scss";

@@ -1,5 +1,3 @@
-import React from "react";
-
 import { NavDropdown, Nav, Navbar as BSNavbar } from "react-bootstrap";
 
 import tm from "tm";

@@ -1,5 +1,3 @@
-import React from "react";
-
 import { useFirstPageState } from "./state";
 
 export default function Button() {
