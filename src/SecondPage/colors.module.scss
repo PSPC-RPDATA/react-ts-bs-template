@@ -1,9 +1,0 @@
-// SASS modules can be imported as objects in JS, but the file must end in .module.scss
-// If you need colors and dimensions (e.g. breakpoints and paddings), SASS modules is the best place to put them
-// So that they can be shared between SASS and JS modules
-
-$activeColor: rgba(0,200,0,0.3);
-
-:export {
-    activeColor: $activeColor;
-}

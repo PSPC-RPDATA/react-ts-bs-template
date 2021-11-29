@@ -5,7 +5,7 @@ import { hrefWithLang } from "utils";
 
 export default function Navbar() {
   return (
-    <BSNavbar bg="light" expand="lg">
+    <BSNavbar bg="light" expand="lg" variant="primary-bg-color">
       <div className="container-fluid">
         <BSNavbar.Brand>
           <h1 className="my-0 fs-3">{tm("title")}</h1>

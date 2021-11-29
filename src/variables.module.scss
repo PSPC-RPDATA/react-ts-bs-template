@@ -1,0 +1,11 @@
+//  .module.scss files can be imported as objects in JS and SCSS alike
+// If you need colors and dimensions (e.g. breakpoints and paddings), this is the best place to put them
+
+
+//primary applies to navbar. If you use a dark one, make sure to use bg="dark" on the BSNavbar component
+$primaryColor: #0ff;
+
+
+:export {
+    primaryColor: $primaryColor;
+}

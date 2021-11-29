@@ -1,4 +1,4 @@
-@import './colors.module.scss';
+@import 'variables.module.scss';
 
 .CustomComponent__root {
     border: 1px solid black;
@@ -6,7 +6,7 @@
 
 
     &.CustomComponent__root--is-active{
-        background-color: $activeColor;
+        background-color: $primaryColor;
     }
 }
 .CustomComponent__header {

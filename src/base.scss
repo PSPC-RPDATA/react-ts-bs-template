@@ -1,0 +1,11 @@
+@import "variables.module.scss";
+
+[class*=-primary-bg-color] {
+    background-color: $primaryColor !important;
+}
+
+.navbar.bg-dark,
+.navbar.bg-dark .navbar-nav .nav-link,
+.navbar.bg-dark .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}

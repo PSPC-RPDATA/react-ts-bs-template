@@ -1,6 +1,5 @@
 import Page from "components/Page";
-
-import colors from "./colors.module.scss";
+import styleVars from "variables.module.scss";
 
 import CustomComponent from "./CustomComponent";
 
@@ -16,7 +15,7 @@ export default function SecondPage() {
       <div>
         <div
           style={{
-            backgroundColor: colors.activeColor,
+            backgroundColor: styleVars.primaryColor,
             width: "100px",
             height: "100px",
           }}
