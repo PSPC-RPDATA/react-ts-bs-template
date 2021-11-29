@@ -27,9 +27,11 @@
     "react-perf"
   ],
   "rules": {
+    "react/prop-types":["warn"],
     "react/react-in-jsx-scope": "off",
     "no-case-declarations":"off",
     "@typescript-eslint/explicit-module-boundary-types": ["off"],
+    "@typescript-eslint/no-empty-interface":["off"],
     "react/jsx-key": ["warn"],
     "no-debugger":"warn",
     "no-undef":"off",//handled by typescript
